@@ -22,7 +22,7 @@ body {
 }
 
 .img-background-1 {
-    background: url("../static/mountains-universe-1.svg") no-repeat center center fixed;
+    background: url("../static/mountains-universe_1.png") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 
 .img-background-2 {
-    background: url("../static/mountains-universe-2.svg") no-repeat center center fixed;
+    background: url("../static/mountains-universe-2.png") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,7 +38,7 @@ body {
 }
 
 .img-background-3 {
-    background: url("../static/mountains-universe-3.svg") no-repeat center center fixed;
+    background: url("../static/mountains-universe-3.png") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -152,3 +152,14 @@ main .content {
     line-height: 28.8px;
 }
 
+.main-exploration {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 1600px;
+    height: 600px;
+    /* border: 1px solid red; */
+    padding-top: 63px;
+    margin-left: 103px;
+}
