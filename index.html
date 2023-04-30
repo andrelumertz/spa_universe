@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,27 +12,22 @@
 </head>
 <body class="img-background-1">
     
-
+    
     <div class="page">
         <header>
             <nav class="wrapper">
                 <img src="./static/vector.svg" alt="logo do site">
-                <a href="./index.html" class="active">Home</a>
-                <a href="./universo.html">O Universo</a>
-                <a href="./exploracao.html">Exploração</a>
+                <a href="/" onclick="route()" class="active">Home</a>
+                <a href="/universo" onclick="route()">O Universo</a>
+                <a href="/exploracao" onclick="route()">Exploração</a>
             </nav>
         </header>
 
-    <main>
-        <h1>Explore o Universo</h1>
+        <div id="app"></div>
 
-        <div class="button">
-            <a href="http://">Quero saber mais</a>
-        </div>
-        
-    </main>
-    </div>
     
+    
+    <script src="js/index.js" type="module"></script>
 
 </body>
 </html>
